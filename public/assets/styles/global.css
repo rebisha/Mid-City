@@ -1,0 +1,13 @@
+#root::-webkit-scrollbar {
+    display: none;
+}
+
+/* @media only screen and (max-width: 768px) {
+    #root {
+        overflow: auto;
+    }
+
+    #root::-webkit-scrollbar {
+        display: none;
+    }
+} */
