@@ -6,6 +6,7 @@
     line-height: 90px;
     letter-spacing: normal;
     color: #69858F;
+    margin-top: 50px;
 }
 
 .title {
@@ -32,6 +33,9 @@
 .image {
     float: right;
     width: inherit;
+    height: 795px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .col-7 {
@@ -41,7 +45,6 @@
 
 .col-5 {
     text-align: center;
-    top: 50px;
 }
 
 /*Tablet screen*/
@@ -63,6 +66,7 @@
     }
 }
 
+/*Mobile Screen*/
 @media only screen and (max-width: 768px) {
     .row {
         flex-direction: column-reverse;

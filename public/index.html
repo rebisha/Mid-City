@@ -43,10 +43,10 @@
             <a class="nav-link" href="#listen">Listen <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Watch</a>
+            <a class="nav-link" href="#watch">Watch</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Tour</a>
+            <a class="nav-link" href="#tour">Tour</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
@@ -62,8 +62,8 @@
     </nav>
     <!--Navbar ends-->
 
-    <!--Masthead starts-->
-    <div class="row" id="listen">
+    <!--Listen starts-->
+    <div class="row listen-row" id="listen">
       <div class="col-5">
         <h1 class="headline">Forget it</h1>
         <p class="title">The new single by Mid City out now!</p>
@@ -75,8 +75,44 @@
         <img src="assets/img/image_1.png" alt="masthead-image" class="image">
       </div>
     </div>
-    <!--Masthead ends-->
+    <!--Listen ends-->
+
+    <!--Watch starts-->
+    <div class="row video-row" id="watch">
+      <h2 class="heading">Watch</h2>
+      <div class="video-wrapper">
+        <iframe class="video" src="https://www.youtube.com/embed/-3P2USPFDcE" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+    <!--Watch end-->
+
+    <!--Tour starts-->
+    <div class="row tour-row" id="tour">
+      <h2 class="heading">Tour</h2>
+      <div class="tour-wrapper">
+        <div style="width:100%;">
+          <img src="./assets/img/midcity-gigs.png" style="width:100%; object-fit:cover;" />
+        </div>
+        <div class="title" style="margin: auto; width: 100%; text-align: center; padding:20px 0 20px 0;">
+          <h1 style="font-weight: 600; text-transform: uppercase; font-size: 20px; line-height: 16px; letter-spacing: 0.2px;
+            color: #ffffff; margin-bottom:10px;">MID CITY</h1>
+          <h2
+            style="font-weight: 600; font-size: 64px; line-height: 70px; letter-spacing: -2px; color: #ffffff; margin-bottom:20px;">
+            Gigs</h2>
+        </div>
+        <div>
+          <a href="https://www.songkick.com/artists/9573484" class="songkick-widget" data-theme="dark"
+            data-detect-style="true" data-font-color="#ffffff" data-background-color="transparent"></a>
+          <script src="//widget.songkick.com/9573484/widget.js"></script>
+        </div>
+      </div>
+    </div>
+    <!--Tour ends-->
   </div>
+
+
   <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -98,7 +134,7 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
   </script>
 
-  <!-- <script src="assets/js/script.js" crossorigin="anonymous"></script> -->
+  <!-- <script src="//widget.songkick.com/9573484/widget.js"></script> -->
 </body>
 
 </html>

@@ -1,0 +1,18 @@
+.video-row,
+.tour-row {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video {
+    width: 1088px;
+    height: 700px;
+}
+
+.tour-wrapper {
+    width: 1088px;
+    height: 816px;
+    background-color: #E5E5E5;
+    margin: auto;
+}

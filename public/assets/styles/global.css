@@ -2,12 +2,32 @@
     display: none;
 }
 
-/* @media only screen and (max-width: 768px) {
-    #root {
-        overflow: auto;
-    }
+.heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 40px;
+    color: #69858F;
+    margin-bottom: 32px;
+}
 
-    #root::-webkit-scrollbar {
-        display: none;
+.row {
+    margin: 50px 0;
+}
+
+/*Tablet screen*/
+@media only screen and (max-width: 992px) {
+    .heading {
+        font-size: 40px;
+        line-height: 30px;
     }
-} */
+}
+
+/*Mobile Screen*/
+@media only screen and (max-width: 768px) {
+    .headline {
+        font-size: 30px;
+        line-height: 20px;
+    }
+}
