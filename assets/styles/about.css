@@ -1,0 +1,34 @@
+.about-image {
+    float: left;
+    width: inherit;
+    height: 700px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about-row {
+    flex-direction: row;
+}
+
+.about-title {
+    margin-top: 50px;
+}
+
+.about-text {
+    text-align: left;
+    padding: 0 10% !important;
+}
+
+/*Tablet screen*/
+@media only screen and (max-width: 992px) {
+    .text {
+        padding: 0 95px;
+    }
+}
+
+/*Mobile Screen*/
+@media only screen and (max-width: 768px) {
+    .text {
+        padding: 16px;
+    }
+}
