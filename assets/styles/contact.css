@@ -5,4 +5,27 @@
 
 .booking-list {
     list-style: none;
+    margin-bottom: 15px;
+}
+
+.booking-list-ul {
+    padding: 0;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.contacts {
+    margin-bottom: 0;
+}
+
+.management {
+    margin-bottom: 32px;
+}
+
+.email-link:hover,
+.email-link:active {
+    color: #69858F;
+    text-decoration: line-through !important;
 }

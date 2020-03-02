@@ -22,7 +22,7 @@
 .image {
     float: right;
     width: inherit;
-    height: 795px;
+    height: 630px;
     object-fit: cover;
     object-position: center;
 }
@@ -49,6 +49,10 @@
         font-size: 14px;
         line-height: 14px;
     }
+
+    /* .image {
+        height: auto;
+    } */
 }
 
 /*Mobile Screen*/

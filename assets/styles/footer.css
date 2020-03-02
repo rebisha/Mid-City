@@ -1,0 +1,99 @@
+.footer-row {
+    height: 115px;
+    background-color: #3D3D3D;
+    margin-bottom: 0 !important;
+    margin-top: 100px !important;
+}
+
+.footer-col {
+    display: inline-flex;
+}
+
+.subscribe {
+    width: inherit;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 64px;
+}
+
+.input-text {
+    width: 288px;
+    height: 48px;
+    margin-right: 12px;
+    border-radius: 5px;
+    border-width: 0;
+    padding: 9px 12px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 0;
+    width: inherit;
+}
+
+.social-links>a {
+    margin: 0 8px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.spotify {
+    background-image: url('../img/social/spotify.svg');
+}
+
+.apple-music {
+    background-image: url('../img/social/apple-music.svg');
+}
+
+.facebook {
+    background-image: url('../img/social/facebook.svg');
+}
+
+.insta {
+    background-image: url('../img/social/insta.svg');
+}
+
+.youtube {
+    background-image: url('../img/social/youtube.svg');
+    height: 18px;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: inherit;
+    opacity: 0.6;
+}
+
+.spotify:hover>.overlay {
+    border-radius: 50px;
+    background-color: #69858F;
+}
+
+.facebook:hover>.overlay {
+    border-radius: 50px;
+    background-color: #69858F;
+}
+
+.apple-music:hover>.overlay {
+    background-color: #69858F;
+    border-radius: 5px;
+}
+
+.insta:hover>.overlay {
+    background-color: #69858F;
+    border-radius: 5px;
+}
+
+.youtube:hover>.overlay {
+    background-color: #69858F;
+    border-radius: 5px;
+}

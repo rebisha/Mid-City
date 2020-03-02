@@ -6,13 +6,32 @@
 }
 
 .video {
-    width: 1088px;
-    height: 700px;
+    width: inherit;
+    height: 612px;
 }
 
+.video-wrapper,
 .tour-wrapper {
-    width: 1088px;
+    display: flex;
+}
+
+.tour-widget {
+    width: inherit;
     height: 816px;
     background-color: #E5E5E5;
-    margin: auto;
+    /* margin: auto; */
+}
+
+/*Tablet screen*/
+@media only screen and (max-width: 992px) {
+
+    .video-row,
+    .tour-row {
+        /* flex-direction: inherit; */
+    }
+
+    .video {
+        width: 90%;
+        height: 500px;
+    }
 }
