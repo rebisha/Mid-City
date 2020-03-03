@@ -24,6 +24,8 @@
     border-radius: 5px;
     border-width: 0;
     padding: 9px 12px;
+    font-size: 16px;
+    line-height: 32px;
 }
 
 .social-links {
@@ -96,4 +98,54 @@
 .youtube:hover>.overlay {
     background-color: #69858F;
     border-radius: 5px;
+}
+
+/*Tablet screen*/
+@media only screen and (max-width: 992px) {
+    .footer-row {
+        height: 85px;
+    }
+
+    .subscribe {
+        margin-right: 32px;
+    }
+
+    .input-text {
+        height: 38px;
+        width: 216px;
+        font-size: 14px;
+    }
+}
+
+/*Mobile Screen*/
+@media only screen and (max-width: 768px) {
+    .footer-row {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footer-col {
+        max-width: 100%;
+    }
+
+    .social-links {
+        padding: 0;
+        justify-content: center;
+        margin: 24px 0;
+    }
+
+    .subscribe {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .input-text {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .subscribe>button {
+        width: 90%;
+        margin: 10px 0 24px;
+    }
 }

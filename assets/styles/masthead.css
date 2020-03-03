@@ -49,15 +49,11 @@
         font-size: 14px;
         line-height: 14px;
     }
-
-    /* .image {
-        height: auto;
-    } */
 }
 
 /*Mobile Screen*/
 @media only screen and (max-width: 768px) {
-    .row {
+    .listen-row {
         flex-direction: column-reverse;
     }
 
@@ -70,9 +66,16 @@
         top: 35px;
     }
 
+    .image {
+        height: auto;
+        object-fit: contain;
+    }
+
     .headline {
         font-size: 40px;
         line-height: 30px;
+        margin-top: 0;
+        margin-bottom: 12px;
     }
 
     .btn-listen {
@@ -80,5 +83,6 @@
         height: 28px;
         font-size: 12px;
         line-height: 12px;
+        margin-bottom: 20px;
     }
 }

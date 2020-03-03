@@ -1,4 +1,8 @@
 .about-image {
+    padding-left: 0;
+}
+
+.about-image> img {
     float: left;
     width: inherit;
     height: 700px;
@@ -24,11 +28,34 @@
     .text {
         padding: 0 95px;
     }
+
+    .about-image>img {
+        width: 100%;
+        height: 375px;
+    }
+
+    .about-title {
+        margin-top: 40px;
+    }
 }
 
 /*Mobile Screen*/
 @media only screen and (max-width: 768px) {
+    .about-row {
+        flex-direction: column;
+    }
+    
     .text {
         padding: 16px;
+    }
+
+    .about-image {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .about-text {
+        max-width: 100%;
+        padding: 0 16px !important;
     }
 }

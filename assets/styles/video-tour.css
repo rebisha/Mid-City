@@ -19,19 +19,36 @@
     width: inherit;
     height: 816px;
     background-color: #E5E5E5;
-    /* margin: auto; */
 }
 
 /*Tablet screen*/
 @media only screen and (max-width: 992px) {
-
-    .video-row,
-    .tour-row {
-        /* flex-direction: inherit; */
+    .tour-widget {
+       height: 628px; 
     }
 
     .video {
-        width: 90%;
         height: 500px;
+    }
+}
+
+/*Mobile Screen*/
+@media only screen and (max-width: 768px) {
+    .video-wrapper,
+    .tour-wrapper {
+        flex-direction: column;
+    }
+
+    .col-10 {
+        max-width: 100%;
+    }
+
+    .video {
+        height: 300px;
+    }
+
+    .tour-widget {
+        width: 100%;
+        min-height: 347px;
     }
 }

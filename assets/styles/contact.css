@@ -29,3 +29,25 @@
     color: #69858F;
     text-decoration: line-through !important;
 }
+
+/*Tablet screen*/
+@media only screen and (max-width: 992px) {
+    .title,
+    .contacts,
+    .email-link {
+        font-size: 16px;
+    }
+
+    .management {
+        margin-bottom: 24px;
+    }
+}
+
+/*Mobile Screen*/
+@media only screen and (max-width: 768px) {
+    .title,
+    .contacts,
+    .email-link {
+        font-size: 14px;
+    }
+}
