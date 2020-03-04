@@ -35,6 +35,7 @@
 .nav-link:focus-within {
     text-decoration: line-through !important;
     color: #69858F;
+    outline: none;
 }
 
 .nav-item {
