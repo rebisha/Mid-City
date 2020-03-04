@@ -34,9 +34,13 @@
 
 /*Mobile Screen*/
 @media only screen and (max-width: 768px) {
-    .video-wrapper,
+    .video-wrapper {
+        flex-direction: column;
+    }
+
     .tour-wrapper {
         flex-direction: column;
+        margin: 0 16px;
     }
 
     .col-10 {
