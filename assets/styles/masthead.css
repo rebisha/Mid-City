@@ -1,3 +1,7 @@
+.box-shadow {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
 .headline {
     font-family: Times;
     font-style: italic;
@@ -6,6 +10,7 @@
     line-height: 90px;
     letter-spacing: normal;
     margin-top: 50px;
+    margin-bottom: 24px;
 }
 
 .btn-listen {
@@ -32,8 +37,8 @@
     overflow: hidden;
 }
 
-.col-5 {
-    text-align: center;
+.listen-row>.col-5 {
+    padding: 0 10%;
 }
 
 /*Tablet screen*/
@@ -41,6 +46,7 @@
     .headline {
         font-size: 60px;
         line-height: 50px;
+        margin-bottom: 16px;
     }
 
     .btn-listen {
@@ -48,6 +54,10 @@
         height: 38px;
         font-size: 14px;
         line-height: 14px;
+    }
+
+    .listen-row>.col-5 {
+        padding: 0 5%;
     }
 }
 
@@ -62,8 +72,9 @@
         max-width: 100% !important;
     }
 
-    .col-5 {
+    .listen-row>.col-5 {
         top: 35px;
+        text-align: center;
     }
 
     .image {

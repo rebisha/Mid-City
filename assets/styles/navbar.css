@@ -3,7 +3,7 @@
     width: 100%;
     z-index: 9999;
     background: white;
-    padding: 1rem !important;
+    padding: 2rem 1rem 1rem !important;
 }
 
 .navbar-brand {
@@ -25,13 +25,14 @@
     padding: 0 18px !important;
 }
 
-.nav-link:hover {
+.nav-link.active {
+    text-decoration: line-through;
     color: #69858F;
 }
 
-.nav-item:active,
 .nav-link:active,
 .nav-link:focus,
+.nav-link:hover,
 .nav-link:focus-within {
     text-decoration: line-through !important;
     color: #69858F;
@@ -60,31 +61,6 @@
     outline: none;
 }
 
-.navbar-open {
-    position: absolute;
-    right: 6.25%;
-    height: 0;
-    border: 1.2px solid #3B3B3B;
-}
-
-.navbar-first-open {
-    left: 34.38%;
-    bottom: 70.03%;
-    width: 19px;
-}
-
-.navbar-second-open {
-    left: 18.75%;
-    bottom: 49.64%;
-    width: 24px;
-}
-
-.navbar-third-open {
-    left: 43.75%;
-    bottom: 30.97%;
-    width: 16px;
-}
-
 .navbar-collapse.collapse.show {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
     position: absolute;
@@ -106,32 +82,16 @@
     display: none;
 }
 
-.navbar-close {
-    position: absolute;
-    left: 31.25%;
-    right: 12.5%;
-    top: 28.13%;
-    bottom: 71.87%;
-    border: 1.2px solid #3B3B3B;
-
-    width: 18px;
-    height: 0;
-}
-
-.navbar-first-close {
-    transform: rotate(45deg);
-}
-
-.navbar-second-close {
-    transform: rotate(135deg);
-}
-
 .collapsing {
     transition: none !important;
 }
 
 /*Tablet screen*/
 @media only screen and (max-width: 992px) {
+    .navbar {
+        padding: 1rem !important;
+    }
+
     .navbar-nav {
         top: 104px;
         position: relative;
@@ -149,6 +109,10 @@
 
 /*Mobile Screen*/
 @media only screen and (max-width: 768px) {
+    .navbar {
+        padding: 1rem !important;
+    }
+
     .navbar-brand {
         margin-left: 0;
     }
